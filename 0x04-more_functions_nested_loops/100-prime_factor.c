@@ -1,10 +1,9 @@
 #include <stdio.h>
-
-/* main - Entry point
+/**
+ * main - Entry point
  *
- * Return: 0 Always 
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	long num = 612852475143;
