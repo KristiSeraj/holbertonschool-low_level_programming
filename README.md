@@ -11,3 +11,6 @@
 
 **0x03-debugging**
 *This directory has projects including code in C for testing different things if it is working or not**
+
+**0x04-more_functions_nested_loops**
+*This directory has projects including code in C for using functions, their prototype, nested loops, checking for digit, characters or printing different things using functions and nested loops*
