@@ -8,11 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j, num, sum;
+	int i, j, sum;
 
 	for (i = 1; i < argc; i++)
 	{
-		num = atoi(argv[i]);
+		sum += atoi(argv[i]);
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
 			if (argv[i][j] < '0' || argv[i][j] > '9')
@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-			sum += num;
 		}
 	}
 	printf("%d\n", sum);
