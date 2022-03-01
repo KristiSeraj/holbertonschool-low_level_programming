@@ -20,12 +20,12 @@ char *_strdup(char *str)
 		k++;
 	}
 	
-	if (str == NULL)
+	if (c == NULL)
 		return (NULL);
 
 	c = malloc((l + 1) * sizeof(char));
 
-	if (c == NULL)
+	if (str == NULL)
 		return (NULL);
 
 	k = 0;
