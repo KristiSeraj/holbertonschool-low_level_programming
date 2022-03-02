@@ -1,6 +1,6 @@
 # Holberton Low-Level Programming
 
-List of projects:
+## List of projects:
 
 - [0x00-hello_world](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x00-hello_world)
 
