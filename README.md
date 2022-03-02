@@ -1,5 +1,9 @@
 # Holberton Low-Level Programming
 
+This repository contains projects about low-level programming & algorithms working with C programming language. The projects include C code about functions, loop & nested loops, if..else condition, recusion, arrays, strings, pointer, libraries, memory allocation and argument line.
+
+---
+
 **List of projects:**
 
 - [0x00-hello_world](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x00-hello_world)
