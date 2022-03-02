@@ -2,7 +2,7 @@
 
 List of projects:
 
-- [0x00-hello_world](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x00-hell_world)
+- [0x00-hello_world](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x00-hello_world)
 
 *This directory has projects including scripts for compiling a C file through 4 steps of compilation, code in C for printing size of data types, etc*
 
