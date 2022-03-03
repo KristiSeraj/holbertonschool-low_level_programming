@@ -29,3 +29,5 @@ This repository contains projects about low-level programming & algorithms worki
 - [0x0A.C - argc, argv](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x0A-argc_argv)
 
 - [0x0B.C - malloc, free](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x0B-malloc_free)
+
+- [0x0C.C - More malloc, free](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x0C-more_malloc_free)
