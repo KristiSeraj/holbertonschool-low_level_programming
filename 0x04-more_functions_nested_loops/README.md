@@ -1,4 +1,4 @@
-# More Functions | Nested loops
+# More Functions, nested loops
 
 - [0-isupper.c](https://github.com/KristiSeraj/holbertonschool-low_level_programming/blob/main/0x04-more_functions_nested_loops/0-isupper.c) -
 *Code in C that checks for uppercase character*
