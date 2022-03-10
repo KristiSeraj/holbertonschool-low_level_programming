@@ -16,7 +16,7 @@
 *Code in C that selects the correct function to perform the operation asked by the user*
 
 - [3-main.c](https://github.com/KristiSeraj/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/3-main.c) -
-*Code in C that perfomd simple operations*
+*Code in C that performs simple operations*
 
 - [3-op_functions.c](https://github.com/KristiSeraj/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/3-op_functions.c) -
 *Code in C that contains functions returning simple operations*
