@@ -39,3 +39,5 @@ This repository contains projects about low-level programming & algorithms worki
 - [0x0F.C - Function pointers](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x0F-function_pointers)
 
 - [0x10.C - Variadic Functions](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x10-variadic_functions)
+
+- [0x12.C - Singly linked lists](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x12-singly_linked_lists)
