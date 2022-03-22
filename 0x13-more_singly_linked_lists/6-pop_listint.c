@@ -10,14 +10,11 @@ int pop_listint(listint_t **head)
 	listint_t *node;
 	int value;
 
-	node = malloc(sizeof(listint_t));
 	if (*head == NULL || head == NULL)
 		return (0);
 	node = *head;
 	value = (*head)->n;
 	(*head) = (*head)->next;
 	free(node);
-	node = NULL;
-
 	return (value);
 }
