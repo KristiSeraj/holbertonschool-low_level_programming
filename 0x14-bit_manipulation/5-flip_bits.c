@@ -8,13 +8,13 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned int count = 0;
-	unsigned int i = n ^ m;
+	unsigned int count_bits = 0;
+	unsigned int result_xor = n ^ m;
 
-	while (i)
+	while (result_xor)
 	{
-		count += (i & 1);
-		i >>= 1;
+		count_bits += (result_xor & 1);
+		count_bits >>= 1;
 	}
-	return (count);
+	return (count_bits);
 }
