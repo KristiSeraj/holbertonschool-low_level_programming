@@ -9,14 +9,13 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int file, write_f, i, len = 0;
+	int file, write_f, len = 0;
 
-	i = 0;
-	while (text_content[i] != '\0')
+	if (text_content != NULL)
 	{
-		len++;
-		i++;
-	}
+		while (text_content[len] != '\0')
+			len++;
+	}	
 	if (filename == NULL)
 		return (-1);
 	file = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
