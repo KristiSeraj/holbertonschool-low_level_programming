@@ -46,7 +46,7 @@ void cp(char *file_from, char *file_to)
 	read_src = read(file_src, content, 1024);
 	if (read_src == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from %s\n", file_from);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98);
 	}
 	while (read_src != 0)
@@ -60,13 +60,17 @@ void cp(char *file_from, char *file_to)
 		read_src = read(file_src, content, 1024);
 		if (read_src == -1)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't read from %s\n", file_from);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 			exit(98);
 		}
 	}
 	close_file(file_dest);
 	close_file(file_src);
 }
+/**
+ * close_file - function that closes the files
+ * @file: the file to be closed
+ */
 void close_file(int file)
 {
 	int cls;
