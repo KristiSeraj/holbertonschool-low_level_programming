@@ -4,12 +4,12 @@ int main(int argc, char **argv)
 {
         if (argc != 3)
         {
-                dprintf(STDERR_FILENO, "Usage: cp file_from file_to");
+                dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
                 exit(97);
         }
 	if (argv[1] == NULL)
 	{
-		dprintf(STDERR_FILENO, "Error Can't read from file %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
         cp(argv[1], argv[2]);
@@ -49,10 +49,10 @@ void cp(char *file_from, char *file_to)
                 }
                 read_src = read(file_src, content, 1024);
                 if (read_src == -1)
-                {
-                        dprintf(STDERR_FILENO, "Error: Can't read from %s\n", file_from);
-                        exit(98);
-                }
+		{
+			dprintf(STDERR_FILENO, "Error: Can't read from %s\n", file_from);
+			exit(98);
+		}
         }
         cls_src = close(file_src);
         if (cls_src == -1)
