@@ -28,7 +28,7 @@ int main(int argc, char **argv)
  */
 void cp(char *file_from, char *file_to)
 {
-	int file_src, file_dest, read_src, write_dest, cls_src, cls_dest;
+	int file_src, file_dest, read_src, write_dest;
 	char content[1024];
 
 	file_src = open(file_from, O_RDONLY);
@@ -64,16 +64,18 @@ void cp(char *file_from, char *file_to)
 			exit(98);
 		}
 	}
-	cls_src = close(file_src);
-	if (cls_src == -1)
+	close_file(file_dest);
+	close_file(file_src);
+}
+void close_file(int file)
+{
+	int cls;
+
+	cls = close(file);
+
+	if (cls == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", file_from);
-		exit(100);
-	}
-	cls_dest = close(file_dest);
-	if (cls_dest == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", file_to);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file);
 		exit(100);
 	}
 }
