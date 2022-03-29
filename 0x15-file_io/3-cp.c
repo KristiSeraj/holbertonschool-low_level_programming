@@ -64,8 +64,8 @@ void cp(char *file_from, char *file_to)
 			exit(98);
 		}
 	}
-	close_file(file_dest);
-	close_file(file_src);
+	cls(file_dest);
+	cls(file_src);
 }
 /**
  * cls - function that closes the files
