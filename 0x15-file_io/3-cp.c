@@ -68,16 +68,16 @@ void cp(char *file_from, char *file_to)
 	close_file(file_src);
 }
 /**
- * close_file - function that closes the files
+ * cls - function that closes the files
  * @file: the file to be closed
  */
-void close_file(int file)
+void cls(int file)
 {
-	int cls;
+	int cls_f;
 
-	cls = close(file);
+	cls_f = close(file);
 
-	if (cls == -1)
+	if (cls_f == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file);
 		exit(100);
