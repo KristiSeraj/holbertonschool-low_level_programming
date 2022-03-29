@@ -8,6 +8,6 @@
 
 - [2-append_text_to_file.c](https://github.com/KristiSeraj/holbertonschool-low_level_programming/blob/main/0x15-file_io/2-append_text_to_file.c) - *Code in C that appends text at the end of a file*
 
-- [3-cp.c](https://github.com/KristiSeraj/holbertonschool-low_level_programming/blob/main/0x15-file_io/3-cp.c) - *Code in C that copies the content of a file to another file*
+- [3-cp.c](https://github.com/KristiSeraj/holbertonschool-low_level_programming/blob/main/0x15-file_io/3-cp.c) - *Code in C that copies the content of a file to another file. Usage: `cp file_from file_to`*
 
 - [main.h](https://github.com/KristiSeraj/holbertonschool-low_level_programming/blob/main/0x15-file_io/main.h) - *Header files containing functions prototypes*
