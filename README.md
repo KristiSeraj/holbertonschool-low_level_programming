@@ -47,3 +47,5 @@ This repository contains projects about low-level programming & algorithms worki
 - [0x14.C - Bit manipulation](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x14-bit_manipulation)
 
 - [0x15.C - File I/O](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x15-file_io)
+
+- [0x17.C - Doubly linked lists](https://github.com/KristiSeraj/holbertonschool-higher_level_programming/tree/main/0x17-doubly_linked_lists)
