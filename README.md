@@ -51,3 +51,5 @@ This repository contains projects about low-level programming & algorithms worki
 - [0x17.C - Doubly linked lists](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x17-doubly_linked_lists)
 
 - [0x18.C - Dynamic Libraries](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x18-dynamic_libraries)
+
+- [0x1A.C - Hash tables](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x1A-hash_tables)
