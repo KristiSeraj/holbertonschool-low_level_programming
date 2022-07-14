@@ -1,5 +1,14 @@
 #!/usr/bin/python3
+"""
+Island perimeter
+"""
+
+
 def island_perimeter(grid):
+    """
+    Find the island perimeter
+    """
+
     len_1 = len(grid)
     len_2 = len(grid[0])
     land = 0
