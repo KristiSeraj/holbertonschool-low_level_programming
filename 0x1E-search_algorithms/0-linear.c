@@ -5,6 +5,8 @@
  * @array: array of integers
  * @size: size of array
  * @value: value to search
+ * Return: -1 if value is not present in array or if array is NULL
+ * index where the values is located
  */
 int linear_search(int *array, size_t size, int value)
 {
