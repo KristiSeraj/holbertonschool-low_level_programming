@@ -1,17 +1,5 @@
 #include "search_algos.h"
 /**
- * find_min - function that finds minimum between two integers
- * @a: first value
- * @b: second value
- * Return: a if a is smaller than b else return b
- */
-int find_min(int a, int b)
-{
-	if (a < b)
-		return (a);
-	return (b);
-}
-/**
  * binary_search_exp - function that search for a value in a sorted array
  * of integers using binary search algorithm
  * @array: pointer to the first element
@@ -57,16 +45,20 @@ int binary_search_exp(int *array, int left, int right, int value)
  */
 int exponential_search(int *array, size_t size, int value)
 {
-	size_t j, i = 1;
+	size_t i, right;
 
 	if (array == NULL)
 		return (-1);
+	i = 1;
 	while (i < size && array[i] <= value)
 	{
 		printf("Value checked array[%ld] = [%d]\n", i, array[i]);
-		j = i;
-		i *= 2;
+		i = i * 2;
 	}
-	printf("Value found between indexes [%ld] and [%ld]\n", j, i);
-	return (binary_search_exp(array, i / 2, find_min(i, size - 1), value));
+	if (i < size)
+		right = i;
+	else
+		right = size - 1;
+	printf("Value found between indexes [%ld] and [%ld]\n", i / 2, right);
+	return (binary_search_exp(array, i / 2, right, value));
 }
