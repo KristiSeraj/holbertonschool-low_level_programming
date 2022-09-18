@@ -56,4 +56,4 @@ This repository contains projects about low-level programming & algorithms worki
 
 - [0x1C.C - Makefiles](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x1C-makefiles)
 
-- [0x1E.c - Search Algorithms](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x1E-search_algorithms)
+- [0x1E.C - Search Algorithms](https://github.com/KristiSeraj/holbertonschool-low_level_programming/tree/main/0x1E-search_algorithms)
